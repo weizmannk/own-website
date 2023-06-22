@@ -30,7 +30,7 @@ organizations = [ { name = "LPCE", url = "https://www.ujkz.bf/ufr/laboratoire-de
  
 +++
 
-# About Michael
+# About  Weizmann
 
 
 Ramodgwendé Weizmann Kiendrébéogo followed a scientific curriculum during which I acquired solid skills in mathematics, physics, as well as in computer programming, before going on to a Master's degree in Materials and Astrophysics in order to do a thesis in the field of relativistic astrophysics.        
