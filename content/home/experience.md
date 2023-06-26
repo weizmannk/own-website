@@ -21,6 +21,15 @@ date_format = "January 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Projet d'Appui à l'Enseigment Supérieur (PAES)"
+  company = "Université Joseph Ki-Zerbo"
+  company_url = "https://www.ujkz.bf/"
+  location = "Ouagadougou, Burkina Faso"
+  date_start = "2023-01-01"
+  date_end = "2023-07-01"
+  description = """"""
+
+[[experience]]
 title = "Heising Simons Foundation through grant 2021-2975"
 company = "Las Cumbres Observatory"
 location = "Goleta,  California"

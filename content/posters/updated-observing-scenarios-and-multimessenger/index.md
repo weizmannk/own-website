@@ -1,6 +1,6 @@
 +++
 title = "Updated observing scenarios and multi-messenger implications for the International Gravitational-wave Network's O4 and O5"
-publishDate = #2018-11-19T06:49:55-07:00  # Schedule page publish date.
+publishDate = 2023-05-25T09:00:55-07:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
