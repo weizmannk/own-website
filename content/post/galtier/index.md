@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Multi-messenger Astronomy led by world-wide collaborations of astronomers"
+title: "Galtier Elementary Outreach Program"
 subtitle: ""
 summary: ""
-authors: ["admin"]
+authors: []
 tags: []
 categories: []
-date: 2020-07-15T17:39:48-05:00
-lastmod: 2020-07-15T17:39:48-05:00
+date: 2022-05-04T18:06:23-04:00
+lastmod: 2022-05-04T18:06:23-04:00
 featured: false
 draft: false
 
@@ -27,3 +27,9 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+As part of the partnership between Accelerated AI Algorithms for Data-Driven Discovery (a3ai3) Institute and the University of Minnesota (UMN). I along with my colleagues volunteer at a local elementary school where we spend the day showing them astronomical based science.
+
+{{< gallery album="outreach" >}}
+
+[Page on a3ai3](https://a3d3.ai/outreach.html)

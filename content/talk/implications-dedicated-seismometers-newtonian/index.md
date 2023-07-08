@@ -1,26 +1,26 @@
 +++
-title = "Updated observing scenarios and multi-messenger implications for the International Gravitational-wave Network's O4 and O5"
-publishDate = 2023-05-25T09:00:55-07:00  # Schedule page publish date.
+title = "Implications of dedicated seismometer measurements on Newtonian-noise cancellation for Advanced LIGO"
+publishDate = 2018-11-19T07:07:06-07:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date = 2023-05-25T09:00:55-07:00
-date_end = 2023-05-25T16:00:55-07:00
+date = 2018-05-19T07:00:06-07:00
+date_end = 2018-05-19T08:00:06-07:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["R. Weizmann Kiendrebeogo"]
+authors = []
 
 # Abstract and optional shortened version.
 abstract = ""
-abstract_short = ""
+summary = ""
 
 # Name of event and optional event URL.
-event = "EDSFA 2nd year PhD Workshop - May 25th 2023"
+event = "Gravitational-Wave Advanced Detector Workshop"
 event_url = ""
 
 # Location of event.
-location = "Sophia Antipolis, France"
+location = "Girdwood, AK"
 
 # Is this a selected talk? (true/false)
 featured = true
@@ -43,7 +43,7 @@ slides = ""
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["LIGO","Seismic"]
+tags = []
 
 # Links (optional).
 url_pdf = ""
