@@ -29,7 +29,7 @@
   sharing_image = ""
 
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
-  twitter = ""
+  twitter = "KIENDREBEOGORa4"
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -105,7 +105,7 @@
   privacy_pack = false
 
   # Configuration of talk pages.
-  [talks]
+#  [talks]
     # Show talk time?
     time = false
 
