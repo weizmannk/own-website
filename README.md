@@ -1,3 +1,62 @@
+
+
+sax[0].loglog(asd_org_100, label = f'{channel_org}', lw = 2,  color= 'green')
+sax[0].loglog(asd_dc_100, label = 'DeepClean', lw = 2, color = 'red')
+sax[0].legend()
+sax[0].xaxis.set_major_formatter(mpl.ticker.ScalarFormatter())
+sax[0].set_xticks([95, 100, 105])
+sax[0].set_xlim(95,  105)
+sax[0].set_ylim(1e-23,1e-19)
+
+sax[1].loglog(asd_org_150, label = f'{channel_org}', lw = 2,  color= 'green')
+sax[1].loglog(asd_dc_150, label = 'DeepClean', lw = 2, color = 'red')
+sax[1].legend()
+sax[1].xaxis.set_major_formatter(mpl.ticker.ScalarFormatter())
+sax[1].set_xticks([145, 150, 155])
+sax[1].set_xlim(145,  155)
+sax[1].set_ylim(1e-23,1e-19)
+
+sax[2].loglog(asd_org_200, label = f'{channel_org}', lw = 2,  color= 'green')
+sax[2].loglog(asd_dc_200, label = 'DeepClean', lw = 2, color = 'red')
+sax[2].legend()
+sax[2].xaxis.set_major_formatter(mpl.ticker.ScalarFormatter())
+sax[2].set_xticks([295, 200, 205])
+sax[2].set_xlim(195,  205)
+sax[2].set_ylim(1e-23,1e-19)
+
+
+sax[3].loglog(asd_org_50, label = f'{channel_org}', lw = 2,  color= 'green')
+sax[3].loglog(asd_dc_50, label = 'DeepClean', lw = 2, color = 'red')
+sax[3].legend()
+sax[3].xaxis.set_major_formatter(mpl.ticker.ScalarFormatter())
+sax[3].set_xticks([45, 50, 55])
+sax[3].set_xlim(45,  55)
+sax[3].set_ylim(1e-23,1e-19)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Academic Kickstart
 
 **Academic** is a framework to help you create a beautiful website quickly. Perfect for personal, student, or academic websites. [Check out the latest demo](https://themes.gohugo.io/theme/academic/) of what you'll get in less than 10 minutes or [view the documentation](https://sourcethemes.com/academic/docs/).
