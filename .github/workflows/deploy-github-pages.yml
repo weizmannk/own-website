@@ -2,8 +2,13 @@ name: Website Deploy
 
 on:
   push:
-    branches: [ main ]
+    branches: 
+    - main
 
+env:
+  AZURE_WEBAPP_NAME: config/_default
+  AZURE_WEBAPP_PACKAGE_PATH: "./publish"
+  
 jobs:
   build:
 
@@ -18,13 +23,17 @@ jobs:
         dotnet-version: '6.0.x'
 
     - name: Restore
-      run: hugo server --disableFastRender
-
-    - name: Deploy to GitHub Pages
-      if: success()
-      uses: crazy-max/ghaction-github-pages@v2
+      run: donet restore ./config/_default/config.toml
+      
+    - name: Build
+      run: dotnet build ./config/_default/config.toml --configuration Release --no-restore
+      
+    - name: Publish
+      run: dotnet publish ./config/_default/config.toml --configuration Release --no-build --output '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}'
+      
+    - name: Deployment
+      uses: azure/webapps-deploy@v2
       with:
-        target_branch: gh-pages
-        build_dir: doc/_build/html/
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        app-name: ${{ env.AZURE_WEBAPP_NAME }}
+        publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
+        package: "${{ env.AZURE_WEBAPP_PACKAGE_PATH }}"
